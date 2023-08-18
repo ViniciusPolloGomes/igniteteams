@@ -1,6 +1,4 @@
 # Ignite Teams React Native
-
-
 comandos de criação: npx create-expo-app igniteteams --template
 comandos de inicialização do app: npx expo start
 
@@ -84,6 +82,16 @@ tsconfig.json
 npm install --save-dev babel-plugin-module-resolver
 
 ## Inserindo Fonts 
-expo install expo-font @expo-google-fonts/roboto
+npm install expo-font @expo-google-fonts/roboto
 
 expo install expo-font@10.0.4 expo-status-bar@1.2.0
+
+## Library Icons Phosphor-react-native
+
+### comando de instalação.
+npm install --save phosphor-react-native
+
+## Expo react-native-svg
+
+npx expo install react-native-svg
+
