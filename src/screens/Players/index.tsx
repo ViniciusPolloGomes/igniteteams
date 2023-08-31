@@ -12,7 +12,7 @@ import { Button } from "@components/Button";
 
 export function Players(){
     const [team,setTeam] = useState('Time A');
-    const [players,setPlayers] = useState(['Vinicius','Rodrigo,Danilo,Vanessa , Rogerio , Vagner']);
+    const [players,setPlayers] = useState(['Vinicius','Rodrigo','Danilo','Vanessa' , 'Rogerio' , 'Vagner']);
     return(
         <Container>
             <Header showBackButton/>

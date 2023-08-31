@@ -8,7 +8,8 @@ export const Container = styled.View`
     background-color: ${({theme})=> theme.COLORS.GRAY_500};
     border-radius: 6px;
     
-    flex-direction: center;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
 
     margin-bottom: 16px;
@@ -22,6 +23,7 @@ export const Name = styled.Text`
         color: ${theme.COLORS.GRAY_200};
         font-family: ${theme.FONT_FAMILY.REGULAR};
     `}
+    
 `;
 
 export const Icon = styled(MaterialIcons).attrs(({theme})=>({
@@ -29,5 +31,5 @@ export const Icon = styled(MaterialIcons).attrs(({theme})=>({
     color: theme.COLORS.GRAY_200,
 }))`
     margin-left: 16px ;
-    margin-right: 4px ;
+    margin-right: 16px ;
 `;
