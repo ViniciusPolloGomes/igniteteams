@@ -95,3 +95,16 @@ npm install --save phosphor-react-native
 
 npx expo install react-native-svg
 
+## Expo react-navigation
+
+![Alt text](image.png)
+
+Usamos para fazer navegações:
+yarn add @react-navigation/native
+
+Automatizações de configurações da navegação, detalhes animações etc..
+expo install react-native-screens react-native-safe-area-context
+
+Método de navegação stack(Pilha)
+yarn add @react-navigation/native-stack
+
