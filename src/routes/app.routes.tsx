@@ -9,7 +9,7 @@ import {NewGroup} from '@screens/NewGroup';
 
 export function AppRoutes(){
     return(
-        <Navigation>
+        <Navigator>
             <Screen
                 name='groups'
                 component={Groups}>
@@ -22,6 +22,6 @@ export function AppRoutes(){
                 name='player'
                 component={Players}>
             </Screen>
-        </Navigation>
+        </Navigator>
     )
 }
