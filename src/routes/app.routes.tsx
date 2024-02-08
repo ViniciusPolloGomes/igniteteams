@@ -3,7 +3,7 @@ import {Groups} from '@screens/Groups';
 import {Players} from '@screens/Players';
 import {NewGroup} from '@screens/NewGroup';
 
-
+//routes created
 const {Navigator, Screen} = createNativeStackNavigator();
 
 export function AppRoutes(){
