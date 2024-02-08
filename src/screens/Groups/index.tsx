@@ -32,7 +32,7 @@ export  function Groups() {
               message="Que tal cadastrar uma nova turma?"
             />
           )}
-      />
+        />
       <Button
         title="Criar nova Turma"
         

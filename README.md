@@ -108,3 +108,6 @@ expo install react-native-screens react-native-safe-area-context
 Método de navegação stack(Pilha)
 yarn add @react-navigation/native-stack
 
+npm install expo@latest  "update version sdk expo"
+npx expo install --fix   "fixed dependences correct versions"
+

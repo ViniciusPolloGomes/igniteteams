@@ -10,9 +10,11 @@ import { PlayerCard } from "@components/PlayerCard";
 import { ListEmpty } from "@components/ListEmpty";
 import { Button } from "@components/Button";
 
+
 export function Players(){
     const [team,setTeam] = useState('Time A');
     const [players,setPlayers] = useState(['Vinicius','Rodrigo','Danilo','Vanessa' , 'Rogerio' , 'Vagner']);
+
     return(
         <Container>
             <Header showBackButton/>
@@ -31,7 +33,7 @@ export function Players(){
                 <FlatList
                     data={['TIME A' , 'TIME B']}
                     keyExtractor={item=>item}
-                    renderItem={({item})=>(
+                    renderItem ={({item})=>(
                         <Filters 
                             title={item}
                             isActive={item === team }

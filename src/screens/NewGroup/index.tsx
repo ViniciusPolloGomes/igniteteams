@@ -3,8 +3,8 @@ import { Container , Content, Icon} from "./styles";
 import { HighLight } from "@components/HighLight";
 import { Button } from "@components/Button";
 import { Input } from "@components/input";
-
-export function NewGroup(){
+import {ReactNode} from 'react'
+export function NewGroup (){
     return(
         <Container>
             <Header showBackButton/>
@@ -22,3 +22,4 @@ export function NewGroup(){
         </Container>
     )
 }
+
