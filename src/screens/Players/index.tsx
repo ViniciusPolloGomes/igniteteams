@@ -15,6 +15,11 @@ export function Players(){
     const [team,setTeam] = useState('Time A');
     const [players,setPlayers] = useState(['Vinicius','Rodrigo','Danilo','Vanessa' , 'Rogerio' , 'Vagner']);
 
+    const itemList = [
+        {id:1, title: "TIMA A"},
+        {id:1, title: "TIMA B"}
+    ];
+
     return(
         <Container>
             <Header showBackButton/>
@@ -31,13 +36,13 @@ export function Players(){
             </Form>
             <HeaderList>
                 <FlatList
-                    data={['TIME A' , 'TIME B']}
-                    keyExtractor={item=>item}
+                    data={itemList}
+                    keyExtractor={item=>item.title}
                     renderItem ={({item})=>(
                         <Filters 
-                            title={item}
-                            isActive={item === team }
-                            onPress={()=>setTeam(item)}
+                            title={item.title}
+                            isActive={item.title === team }
+                            onPress={()=>setTeam(item.title)}
                         />
                     )}
                     horizontal
