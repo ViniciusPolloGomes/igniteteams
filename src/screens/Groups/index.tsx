@@ -35,7 +35,6 @@ export  function Groups() {
         />
       <Button
         title="Criar nova Turma"
-        
       />
     </Container>
   );

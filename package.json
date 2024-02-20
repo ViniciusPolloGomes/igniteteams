@@ -14,7 +14,7 @@
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.14",
     "expo": "~50.0.5",
-    "expo-font": "~11.10.2",
+    "expo-font": "^11.10.3",
     "expo-status-bar": "~1.11.1",
     "expo-updates": "~0.24.9",
     "phosphor-react-native": "^1.1.2",
