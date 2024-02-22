@@ -1,5 +1,5 @@
 import { ThemeProvider } from 'styled-components';
-import { useFonts,Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
+import { useFonts,Roboto_400Regular, Roboto_700Bold,Roboto_500Medium } from '@expo-google-fonts/roboto';
 import theme from './src/theme/theme'
 import {Loading} from '@components/Loading'
 import { StatusBar } from 'react-native';
@@ -11,8 +11,11 @@ export default function App() {
     Roboto_400Regular,
     Roboto_500Medium,
     Roboto_700Bold,
-    'roboto': require('./assets/fonts/roboto/'),
   });
+
+  if (!fontsLoaded) {
+    return null;
+  }
   
   return (
     <ThemeProvider theme={theme}>
