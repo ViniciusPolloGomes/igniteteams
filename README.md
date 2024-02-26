@@ -111,3 +111,32 @@ yarn add @react-navigation/native-stack
 npm install expo@latest  "update version sdk expo"
 npx expo install --fix   "fixed dependences correct versions"
 
+## React native safe area contex
+
+![alt text](image-1.png)
+
+```tsx
+import { SafeAreaView } from 'react-native-safe-area-context';
+```
+
+## Prop Drilling
+
+método normal.
+
+![alt text](image-2.png)
+
+outro método ideal:
+
+![alt text](image-3.png)
+
+## Async Storage
+```
+npx expo install @react-native-async-storage/async-storage
+```
+![alt text](image-4.png)
+
+![alt text](image-6.png)
+
+
+
+

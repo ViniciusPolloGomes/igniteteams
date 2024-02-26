@@ -1,12 +1,12 @@
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider} from 'styled-components/native';
 import { useFonts,Roboto_400Regular, Roboto_700Bold,Roboto_500Medium } from '@expo-google-fonts/roboto';
 import theme from './src/theme/theme'
 import {Loading} from '@components/Loading'
-import { StatusBar } from 'react-native';
-import { NewGroup } from '@screens/NewGroup';
+import { StatusBar, useColorScheme } from 'react-native';
 import {Routes} from './src/routes'
 
 export default function App() {
+  
   const [fontsLoaded] = useFonts({
     Roboto_400Regular,
     Roboto_500Medium,
@@ -18,10 +18,10 @@ export default function App() {
   }
   
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme} >
       <StatusBar 
         barStyle="light-content"
-        backgroundColor="transparent"
+        backgroundColor={theme.COLORS.GRAY_600}
         translucent
       />
       {fontsLoaded ? <Routes/> : <Loading/>}
