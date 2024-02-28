@@ -17,7 +17,7 @@ export function NewGroup (){
     async function handleNew (){
         try{ 
             await groupCreate(group);
-            navigation.navigate('players', group' )
+            navigation.navigate('players', group )
         }catch(error){
             console.log(error)
         }    
