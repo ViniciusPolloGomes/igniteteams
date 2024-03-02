@@ -3,7 +3,7 @@ import { Container, Icon , Title} from './styles'
 
 
 type Props = TouchableOpacityProps & {
-    title:string;   
+    title: string;   
 }
 
 export function GroupCard({title,...rest}: Props){
@@ -11,7 +11,7 @@ export function GroupCard({title,...rest}: Props){
         <Container {...rest}>
             <Icon/>
             <Title>
-                {title}
+                {JSON.stringify(title)}
             </Title>
         </Container>
     )

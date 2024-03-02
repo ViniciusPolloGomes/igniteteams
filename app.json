@@ -5,15 +5,11 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000"
+      "backgroundColor": "#000000"
       
-    },
-    "dark" :{
-        "backgroundColor":"#000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -24,7 +20,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#000"
+        "backgroundColor": "#000000"
       }
     },
     "androidNavigationBar": {
@@ -46,7 +42,7 @@
       "url": "https://u.expo.dev/5b4b8cbc-6303-4324-86d0-384a7bdd415d"
     },
     "plugins": [
-      "expo-font",
+      
       "expo-router"
     ]
   }

@@ -10,6 +10,10 @@ npm install styled-components
 npm install --save-dev @types/styled-components @types/styled-components-react-native
 npm i styled-components@5.3.9
 
+Update project 
+https://www.youtube.com/watch?v=bTIVF1fU-KU
+
+
 
 Extensão para instalar : vscode-styled-componentsv1.7.8
 
